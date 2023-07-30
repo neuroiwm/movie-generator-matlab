@@ -12,11 +12,11 @@ properties
 end
 
 methods (Access = public)
-    function self = MovieGenerator(path_movie,config)                
-        self.set_obj_movie(path_movie)
+    function self = MovieGenerator(path_movie,config)
         if nargin == 2
             self.set_config(config);            
         end
+        self.set_obj_movie(path_movie)        
     end
 
     function self = add_frame(self)
