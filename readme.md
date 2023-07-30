@@ -4,7 +4,7 @@ generate movie using MATLAB.
 
 ## Description
 
-Initially made to capture the changes in the time-frequency representation of neural data across channels, yet any generic use of the code itself is possible.
+Originally designed to capture changes in the time-frequency representation of neural data across channels, the code can also be applied for various other purposes.
 
 ## Getting Started
 
